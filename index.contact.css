@@ -41,6 +41,7 @@
 @media (max-width : 724px) {
     #contact{
         padding-top: 5rem;
+        overflow: hidden;
     }
     form img{
         display: none;
