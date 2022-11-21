@@ -5,6 +5,7 @@ body{
 .jumbotron{
     background-image: url(img/foto2.jpg);
     background-size: cover;
+    background-position: center;
     position: relative;
     padding-top: 100px;
 }
