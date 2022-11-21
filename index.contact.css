@@ -1,0 +1,70 @@
+@media (min-width : 992px) {
+    form img{
+        width: 600px;
+        height: 550px;
+    }
+    .contact{
+        background-color: #fff;
+    }
+    .contact-logo{
+        text-align: center;
+        padding: 15px 0;
+        font-size: 40px;
+        font-family: 'Viga', sans-serif;
+    }
+    .form-name{
+        padding: 15px 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .form-pesan{
+        width: 450px;
+        height: 72px;
+        border: none;
+        border-bottom: 2px solid #483c32;
+        border-radius: 0;
+    }
+    .form-control{
+        border: none;
+        border-bottom: 2px solid #483c32;
+        border-radius: 0;
+        width: 210px;
+    }
+    .form-lokasi{
+        margin-left: 10px;
+    }
+    .tombol-form{
+        margin-top: 23px;
+        margin-bottom: 23px;
+        margin-right: 45px;
+    }
+}
+@media (max-width : 724px) {
+    #contact{
+        padding-top: 5rem;
+    }
+    form img{
+        display: none;
+    }
+    .contact-logo{
+        text-align: center;
+        padding: 10px 0;
+        font-size: 40px;
+        font-family: 'Viga', sans-serif;
+    }
+    .form-name{
+        padding: 10px 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .form-control{
+        border: none;
+        border-bottom: 2px solid #483c32;
+        border-radius: 0;
+        width: 450px;
+        background-color: transparent;
+    }
+    .tombol-form{
+        margin-top: 23px;
+        margin-bottom: 23px;
+        margin-right: 8px;
+    }
+}
