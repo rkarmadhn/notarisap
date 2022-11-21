@@ -1,0 +1,227 @@
+body{
+    background-color: #dbdbdb40;
+}
+
+/* Logo */
+.navbar{
+    font-family: 'Viga', sans-serif;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.navbar-brand{
+    font-size: 32px;
+}
+nav a:hover, .nav-link:hover{
+    color: white;
+}
+
+/* Jumbotron */
+.jumbotron{
+    background-image: url(/img/Card\ 1.jpg);
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+}
+
+.jumbotron .container{
+    z-index: 1;
+    position: relative;
+}
+
+/* Utility */
+.tombol{
+    text-transform: uppercase;
+    border-radius: 40px;
+    background-color: #a26028;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    transition: 1s;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.tombol:hover{
+    background-color: white;
+    color : #a26028;
+}
+
+.work img{
+    width: 100%;
+    height: 400px;
+}
+
+.work a{
+    font-family: 'Poppins', sans-serif;
+}
+.blog-post p, .blog-post li{
+    color: gray;
+
+}
+footer{
+    background-color: #292f45;
+    color: white;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Desktop */
+@media (min-width : 992px) {
+    /* Navbar */
+    .navbar-brand, .nav-link{
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    }
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 20px;
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    
+    /* Jumbotron */
+    .jumbotron{
+        margin-top: -74px;
+        height: 100vh;
+        text-align: center;
+    }
+    .jumbotron .display-4{
+        color: white;
+        margin-bottom: 30px;
+        margin-top: 140px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        font-size: 52px;
+    }
+    .jumbotron p{
+        font-size: 16px;
+        color: white;
+        font-size: 18px;
+    }
+    .jumbotron::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        bottom: 0;
+    }
+    /* Working */
+    .work{
+        margin-top: 150px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 50px;
+    }
+    .work h3{
+        font-size: 52px;
+        font-weight: 200;
+        text-transform: uppercase;
+    }
+    .work h3 span{
+        font-weight: 500;
+    }
+    .work p {
+        font-size: 16px;
+        font-weight: 200;
+        color: gray;
+        margin: 20px 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .work h3{
+        margin-top: 50px;
+    }
+    #tentang{
+        height: 100vh;
+    }
+    .info {
+        height: 70vh;
+        text-align: center;
+    }
+    .info h1{
+        margin: 50px 0;
+        text-align: center;
+        height: 100px;
+    }
+    .info h5{
+        font-size: 22px;
+    }
+    .info p{
+        margin: 50px;
+    }
+}
+
+
+/* HP */
+@media (max-width : 724px) {
+    nav{
+        background-color: #292f45;
+    }
+    .navbar-brand, .nav-link{
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Jumbotron */
+    .jumbotron{
+        margin-top: -74px;
+        height: 100vh;
+        text-align: center;
+    }
+    .jumbotron .display-4{
+        color: white;
+        margin-bottom: 30px;
+        margin-top: 140px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        font-size: 32px;
+    }
+    .jumbotron p{
+        font-size: 16px;
+        color: white;
+        font-size: 18px;
+    }
+    .jumbotron::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        bottom: 0;
+    }
+    
+    /* Work */
+    .work{
+        margin-top: 40px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .work h3{
+        font-size: 32px;
+        font-weight: 200;
+        text-transform: uppercase;
+        
+    }
+    .work h3 span{
+        font-weight: 500;
+    }
+    .work p {
+        font-size: 16px;
+        font-weight: 200;
+        color: #acacac;
+        margin: 10px 0;
+    }
+    .work h3{
+        margin-top: 20px;
+    }
+}
