@@ -1,5 +1,5 @@
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbylKoxEwwcelw9vghDI-PsNl8YHNVuIPpKWI2UdAbF5k4IhMchlZCg5XdVV0La3DIP6/exec';
-      const form = document.forms['my-portfololio-contact'];
+const scriptURL = 'https://script.google.com/macros/s/AKfycbylKoxEwwcelw9vghDI-PsNl8YHNVuIPpKWI2UdAbF5k4IhMchlZCg5XdVV0La3DIP6/exec';
+      const form = document.forms['contact'];
       const btnKirim = document.querySelector('.btn-kirim');
       const btnLoading = document.querySelector('.btn-loading');
       const myAlert = document.querySelector('.alert');

@@ -19,7 +19,7 @@
     padding-bottom: 11px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
-.blog-post p, .blog-post li{
+.blog-post p, .blog-post li, tbody{
     font-family: 'Poppins', sans-serif;
 }
 .table-brand{

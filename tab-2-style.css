@@ -13,64 +13,45 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
 nav{
     background-color: #43302e;
 }
-#contact{
+#contact, .content-1{
     background-color: #483c32;
 }
 
-@media (min-width : 924px) {
+@media (min-width : 772px) {
     #contact{
         padding-top: -5rem;
     }
     .card-brand{
     height: 84vh;
     }
-    .container-fluid{
-    height: 100vh;
-    }
-
-    /* Contact */
-    form img{
-        width: 600px;
-        height: 550px;
-    }
-    .contact{
-        background-color: #fff;
-    }
-    .contact-logo{
-        text-align: center;
-        padding: 15px 0;
-        font-size: 40px;
-        font-family: 'Viga', sans-serif;
-    }
-    .form-name{
-        padding: 15px 0;
+    .tombol{
+        text-transform: uppercase;
+        border-radius: 40px;
+        background-color: #a26028;
+        color: white;
         font-family: 'Poppins', sans-serif;
-    }
-    .form-pesan{
-        width: 450px;
-        height: 72px;
-        border: none;
-        border-bottom: 2px solid #483c32;
-        border-radius: 0;
-    }
-    .form-control{
-        border: none;
-        border-bottom: 2px solid #483c32;
-        border-radius: 0;
-        width: 210px;
-    }
-    .form-lokasi{
-        margin-left: 10px;
+        transition: 1s;
+        font-weight: 400;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     }
     .tombol-form{
-        margin-top: 23px;
-        margin-bottom: 23px;
-        margin-right: 45px;
+        text-transform: uppercase;
+        background-color: #a26028;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        transition: 1s;
+        font-weight: 400;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     }
+    .tombol:hover, .tombol-form:hover{
+        background-color: white;
+        color : #a26028;
+    }
+
+    
 }
 
 @media (max-width : 724px) {
@@ -86,9 +67,13 @@ nav{
         font-size: 40px;
         font-family: 'Viga', sans-serif;
     }
+    form h3{
+        color: white;
+    }
     .form-name{
         padding: 10px 0;
         font-family: 'Poppins', sans-serif;
+        color: white;
     }
     .form-control{
         border: none;
