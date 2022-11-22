@@ -1,0 +1,105 @@
+
+.card h3{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Viga', sans-serif;
+    color: black;
+    text-shadow: 1px 1px 1px white;
+}
+.card{
+    margin-top: 20px;
+    background-color: wheat;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav{
+    background-color: #43302e;
+}
+#contact{
+    background-color: #483c32;
+}
+
+@media (min-width : 924px) {
+    #contact{
+        padding-top: -5rem;
+    }
+    .card-brand{
+    height: 84vh;
+    }
+    .container-fluid{
+    height: 100vh;
+    }
+
+    /* Contact */
+    form img{
+        width: 600px;
+        height: 550px;
+    }
+    .contact{
+        background-color: #fff;
+    }
+    .contact-logo{
+        text-align: center;
+        padding: 15px 0;
+        font-size: 40px;
+        font-family: 'Viga', sans-serif;
+    }
+    .form-name{
+        padding: 15px 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .form-pesan{
+        width: 450px;
+        height: 72px;
+        border: none;
+        border-bottom: 2px solid #483c32;
+        border-radius: 0;
+    }
+    .form-control{
+        border: none;
+        border-bottom: 2px solid #483c32;
+        border-radius: 0;
+        width: 210px;
+    }
+    .form-lokasi{
+        margin-left: 10px;
+    }
+    .tombol-form{
+        margin-top: 23px;
+        margin-bottom: 23px;
+        margin-right: 45px;
+    }
+}
+
+@media (max-width : 724px) {
+    #contact{
+        padding-top: 5rem;
+    }
+    form img{
+        display: none;
+    }
+    .contact-logo{
+        text-align: center;
+        padding: 10px 0;
+        font-size: 40px;
+        font-family: 'Viga', sans-serif;
+    }
+    .form-name{
+        padding: 10px 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .form-control{
+        border: none;
+        border-bottom: 2px solid white;
+        border-radius: 0;
+        width: 400px;
+        background-color: transparent;
+    }
+    .tombol-form{
+        margin-top: 23px;
+        margin-bottom: 23px;
+        margin-right: 23px;
+    }
+}

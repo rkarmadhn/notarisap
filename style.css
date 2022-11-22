@@ -1,6 +1,4 @@
-body{
-    background-color: #f5f5dc;
-}
+
 /* Jumbotron */
 .jumbotron{
     background-image: url("foto2.jpg");
@@ -15,29 +13,6 @@ body{
     position: relative;
 }
 /* Utility */
-.tombol{
-    text-transform: uppercase;
-    border-radius: 40px;
-    background-color: #a26028;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    transition: 1s;
-    font-weight: 400;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-}
-.tombol-form{
-    text-transform: uppercase;
-    background-color: #a26028;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    transition: 1s;
-    font-weight: 400;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-}
-.tombol:hover, .tombol-form:hover{
-    background-color: white;
-    color : #a26028;
-}
 .blog-post h2{
     font-family: 'Viga', sans-serif;
     padding-top: 20px;
@@ -56,12 +31,7 @@ body{
     color: #43302e;
     cursor: pointer;
 }
-footer{
-    background-color: #43302e;
-    color: white;
-    height: 50px;
-    font-family: 'Poppins', sans-serif;
-}
+
 
 /* Desktop */
 @media (min-width : 992px) {
@@ -93,19 +63,7 @@ footer{
         position: absolute;
         bottom: 0;
     }
-    #tentang{
-        height: 100vh;
-        background-color: #483c32;
-        padding-top: 5rem;
-    }
-    #home{
-        padding-top: 4rem;
-        height: 100vh;
-    }
-    #contact{
-        padding-top: 5rem;
-        height: 100vh;
-    }
+    
     
     
 }
@@ -113,9 +71,6 @@ footer{
 
 /* HP */
 @media (max-width : 724px) {
-    #home{
-        padding-top: 5rem;
-    }
     /* Jumbotron */
     .jumbotron{
         margin-top:-74px;
@@ -146,7 +101,6 @@ footer{
     }
     #tentang{
         background-color: #483c32;
-        padding-top: 3.5rem;
     }
     
 }
