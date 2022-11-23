@@ -1,0 +1,257 @@
+body{
+    background-color: #f5f5dc;
+}
+
+/* navbar */
+.navbar{
+    font-family: 'Viga', sans-serif;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1020;
+}
+.navbar-brand{
+    font-size: 16px;
+} 
+.navbar-brand, .nav-link{
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+nav a:hover, .nav-link:hover{
+    color: white;
+}
+/* end navbar */
+
+/* Jumbotron */
+.jumbotron{
+    background-image: url("foto2.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 100px;
+}
+
+.jumbotron .container{
+    z-index: 1;
+    position: relative;
+}
+/* end jumbotron */
+
+/* Slides */
+.work img{
+    width: 100%;
+    height: 400px;
+}
+.work a{
+    font-family: 'Poppins', sans-serif;
+}
+/* end slides*/
+
+.blog-post h2{
+    font-family: 'Viga', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 11px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.blog-post p, .blog-post li, tbody{
+    font-family: 'Poppins', sans-serif;
+}
+.table-brand{
+    font-family: 'Viga', sans-serif;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.table-logo{
+    color: #43302e;
+    cursor: pointer;
+}
+.tombol{
+    text-transform: uppercase;
+    border-radius: 40px;
+    background-color: #a26028;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    transition: 1s;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.tombol-form{
+    text-transform: uppercase;
+    background-color: #a26028;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    transition: 1s;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.tombol:hover, .tombol-form:hover{
+    background-color: white;
+    color : #a26028;
+}
+footer{
+    background-color: #43302e;
+    color: white;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Desktop */
+@media (min-width : 992px) {
+    #tentang{
+        background-color: #483c32;
+    }
+    #home, #contact, #tentang{
+        padding-top: 5rem;
+        height: 100vh;
+    }
+    /* Navbar */
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 20px;
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #a26028;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    /* end navbar */
+
+    /* Jumbotron */
+    .jumbotron{
+        margin-top: -74px;
+        height: 100vh;
+        text-align: center;
+    }
+    .jumbotron .display-4{
+        color: white;
+        margin-bottom: 30px;
+        margin-top: 140px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        font-size: 52px;
+    }
+    .jumbotron p{
+        font-size: 16px;
+        color: white;
+        font-size: 18px;
+    }
+    .jumbotron::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        bottom: 0;
+    }
+    /* slides */
+    .carousel-control-next, .carousel-control-prev {
+        color: black;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .carousel{
+        padding: 5rem 0;
+    }
+    .slides-icon{
+        color: white;
+    }
+    /* Working */
+    .work{
+        padding: 0 20px;
+        color: #fefefa;   
+    }
+    .work h3{
+        font-size: 52px;
+        font-weight: 200;
+        text-transform: uppercase;
+        font-family: 'Viga', sans-serif;
+    }
+    .work p {
+        font-size: 16px;
+        font-weight: 200;
+        margin: 20px 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .work h3{
+        margin-top: 50px;
+    }
+    /* End slides */
+}
+
+@media (max-width : 724px) {
+    #tentang{
+        padding-top: 3.5rem;
+        background-color: #483c32;
+    }
+    #home{
+        padding-top: 5rem;
+    }
+    /* Navbar */
+    nav{
+        background-color: #43302e;
+    }
+    /* end navbar */
+
+    /* Jumbotron */
+    .jumbotron{
+        margin-top:-74px;
+        height: 100vh;
+        text-align: center;
+    }
+    .jumbotron .display-4{
+        color: white;
+        margin-bottom: 30px;
+        margin-top: 140px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        font-size: 32px;
+    }
+    .jumbotron p{
+        font-size: 16px;
+        color: white;
+        font-size: 18px;
+    }
+    .jumbotron::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        bottom: 0;
+    }
+    
+    /* slides */
+    .slides-icon{
+        color: transparent;
+    }
+    .work{
+        margin-top: 40px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .work h3{
+        font-size: 32px;
+        font-weight: 200;
+        text-transform: uppercase;
+        color: whitesmoke;
+        font-family: 'Viga', sans-serif;
+    }
+    .work p {
+        font-size: 16px;
+        font-weight: 200;
+        color: white;
+        margin: 10px 0;
+    }
+    .work h3{
+        margin-top: 20px;
+    }
+    /* end slides */
+}
