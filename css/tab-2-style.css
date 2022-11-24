@@ -1,0 +1,29 @@
+.card h3, .info{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Viga', sans-serif;
+    color: black;
+    text-shadow: 1px 1px 1px white;
+}
+.card{
+    margin: 10px 0;
+    background-color: wheat;
+    font-family: 'Poppins', sans-serif;
+}
+#contact{
+    background-color: #483c32;
+}
+
+@media (min-width : 992px) {
+    #home, #contact{
+        padding-top: 5rem;
+        height: 100vh;
+    }
+}
+@media (max-width : 724px) {
+    #contact{
+        padding-top: 5rem;
+    }
+    
+}

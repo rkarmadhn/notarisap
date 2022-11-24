@@ -1,0 +1,16 @@
+#contact{
+    background-color: #483c32;
+}
+
+@media (min-width : 992px) {
+    #home, #contact{
+        padding-top: 5rem;
+        height: 100vh;
+    }
+}
+@media (max-width : 724px) {
+    #contact{
+        padding-top: 5rem;
+    }
+    
+}
