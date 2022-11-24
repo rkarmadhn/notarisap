@@ -24,7 +24,7 @@ nav a:hover, .nav-link:hover{
 
 /* Jumbotron */
 .jumbotron{
-    background-image: url("/foto2.jpg");
+    background-image: url("foto2.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
